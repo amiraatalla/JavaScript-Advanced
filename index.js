@@ -24,6 +24,15 @@ function sub(num1, num2){
   return num1 - num2;
 }
 
-// const res = sub(9, 3);
-// console.log(res);
 console.log(sub(9, 3));
+
+
+
+function sub(num1, num2){
+    const subtraction = num1 - num2;
+    return subtraction
+  }
+  
+  const res = sub(9, 3);
+  console.log(res);
+  
