@@ -7,7 +7,7 @@ let age = 15;
 // function
 
 function add(number1, number2, number3) {
-    sum = number1 + number2 + number3; //local variable
+    const sum = number1 + number2 + number3; //local variable
     console.log(age);
     console.log(sum);
     return sum;
@@ -20,6 +20,10 @@ console.log('******************');
 console.log(add(7, 8, 5));
 console.log('******************');
 
-function sub(number1, number2){
-
+function sub(num1, num2){
+  return num1 - num2;
 }
+
+// const res = sub(9, 3);
+// console.log(res);
+console.log(sub(9, 3));
