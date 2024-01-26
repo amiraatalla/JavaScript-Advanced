@@ -36,3 +36,27 @@ function sub(num1, num2){
   const res = sub(9, 3);
   console.log(res);
   
+
+  function greeting(){
+    return "Hello";
+  }
+const greet = greeting();
+  console.log(greet)
+//   console.log(greeting())
+
+
+function greetingStudent(name){
+    // return "Hello " + name;
+    return `Hello  ${name}`;
+  }
+  console.log(greetingStudent("Aisha"))
+
+// const greetSt = greeting("Aisha");
+//   console.log(greet)
+
+
+function greetingStudent(name){
+    return `Hello  ${name}`;
+  }
+  console.log(greetingStudent("Aisha"))
+  
