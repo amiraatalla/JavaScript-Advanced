@@ -14,8 +14,8 @@ do {
 } while (stat < 600)
 
 
-stat = 1000;
-do {
+stat = 1000; 
+do {   // excuted at least one time; 
     console.log(stat + " - Hello");
     stat += 100;
 } while (stat < 600)
